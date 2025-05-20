@@ -1,19 +1,22 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import Book from "./Book";
-import Ui from "./Ui";
-import Ayo from "./Ayo";
 
-import Ux from "./Ux";
-import Vall from "./Vall";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./Homefolder/Home";
+import Event from "./Eventfolder/Event";
+import CreateEvent from "./CreateEventfolder/CreateEvent";
+import About from "./AboutFolder/About";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Book />
-    <Ayo/>
-    <Ui/> 
-    <Ux/>
-    <Vall/>
+ <BrowserRouter>
+ <Routes>
+  <Route path="/" element={<Home/>}/>
+  <Route path="/event" element={<Event/>}/>
+  <Route path="/create" element={<CreateEvent/>}/>
+  <Route path="/about" element={<About/>}/>
+ </Routes>
+ </BrowserRouter>
   </StrictMode>
 );
