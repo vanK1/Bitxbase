@@ -3,10 +3,12 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import Book from "./Book";
 import Ui from "./Ui";
+import Ux from "./Ux";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Book />
     <Ui/> 
+    <Ux/>
   </StrictMode>
 );
