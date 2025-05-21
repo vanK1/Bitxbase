@@ -6,7 +6,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Homefolder/Home";
 import Event from "./Eventfolder/Event";
 import CreateEvent from "./CreateEventfolder/CreateEvent";
-import About from "./About.";
+import About from "./AboutFolder/About";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
