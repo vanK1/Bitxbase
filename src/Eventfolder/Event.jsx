@@ -19,9 +19,9 @@ function Event() {
       date: "June, 2025",
       time: "2:00 PM",
       venue: "Room A204",
-      num : "12",
+      num: "12",
       description:
-        "Hands-on session covering the fundamentals of modern frontend development with React.",
+        "Hands-on session covering the fundamentals of mod frontend dev.",
     },
   ]);
 
@@ -32,8 +32,7 @@ function Event() {
       time: "10:00 AM",
       venue: "Online(Zoom)",
       num: "15",
-      description:
-        "An intensive crash course on Python programming.",
+      description: "An intensive crash course on Python programming.",
     },
   ]);
 
@@ -44,8 +43,7 @@ function Event() {
       time: "4:00 PM",
       venue: "2nd Floor",
       num: "18",
-      description:
-        "A casual meetup for AI enthusiasts to discuss trends.",
+      description: "A casual meetup for AI enthusiasts to discuss trends.",
     },
   ]);
 
@@ -80,8 +78,7 @@ function Event() {
       time: "6:00 PM",
       venue: "Lab 3,",
       num: "25",
-      description:
-        "Compete in or watch others code browser games live using JavaScript.",
+      description: "Compete in or watch others code browser games live using.",
     },
   ]);
 
@@ -105,7 +102,7 @@ function Event() {
       venue: "Engineering Hub",
       num: "29",
       description:
-        "Team up and solve fun problems using trees, graphs, and other data structures.",
+        "Team up and solve fun problems using trees, graphs, and other data .",
     },
   ]);
 
@@ -117,20 +114,20 @@ function Event() {
       venue: "Room B101",
       num: "11",
       description:
-        "Experts give live feedback on student portfolios. Bring yours or attend to learn.",
+        "Experts give live feedback on student portfolios. Bring yours.",
     },
   ]);
 
   return (
     <div className=" bg-[#161616] h-[100vh]">
-      <h1 className="text-3xl font-bold mb-8 text-center text-white">
+      <h1 className="text-3xl font-bold p-5 flex justify-center items-center text-white">
         📅 Bitxbase Events Hub
       </h1>
-      <div className="bg-[#161616] container grid grid-cols-2 gap-3 text-white">
-        <div className=" bg-[black] grid gap-4">
+      <div className="bg-[#161616] grid grid-cols-2 gap-6 text-white">
+        <div className=" bg-[#161616] grid gap-6">
           <a className=" h-[190px]" href="/FullEvent">
             {Event1.map((Event1) => (
-              <div className="grid grid-cols-[20%_35%_45%] font-mono">
+              <div className="bg-[black] grid grid-cols-[20%_35%_45%] font-mono">
                 <div className="bg-[#f2320c] h-[190px] flex flex-col justify-center items-center">
                   <div className="h-[150px] flex flex-col justify-evenly items-center">
                     <h1 className=" font-bold text-4xl">{Event1.num}</h1>
@@ -161,7 +158,7 @@ function Event() {
           </a>
           <a className=" h-[190px]" href="/FullEvent">
             {Event2.map((Event2) => (
-              <div className="grid grid-cols-[20%_35%_45%] font-mono">
+              <div className="bg-[black] grid grid-cols-[20%_35%_45%] font-mono">
                 <div className="bg-[#f2320c] h-[190px] flex flex-col justify-center items-center">
                   <div className="h-[150px] flex flex-col justify-evenly items-center">
                     <h1 className=" font-bold text-4xl">{Event2.num}</h1>
@@ -192,7 +189,7 @@ function Event() {
           </a>
           <a className=" h-[190px]" href="/FullEvent">
             {Event3.map((Event3) => (
-              <div className="grid grid-cols-[20%_35%_45%] font-mono">
+              <div className="grid grid-cols-[20%_35%_45%] font-mono bg-black">
                 <div className="bg-[#f2320c] h-[190px] flex flex-col justify-center items-center">
                   <div className="h-[150px] flex flex-col justify-evenly items-center">
                     <h1 className=" font-bold text-4xl">{Event3.num}</h1>
@@ -223,7 +220,7 @@ function Event() {
           </a>
           <a className=" h-[190px]" href="/FullEvent">
             {Event4.map((Event4) => (
-              <div className="grid grid-cols-[20%_35%_45%] font-mono">
+              <div className="grid grid-cols-[20%_35%_45%] font-mono bg-black">
                 <div className="bg-[#f2320c] h-[190px] flex flex-col justify-center items-center">
                   <div className="h-[150px] flex flex-col justify-evenly items-center">
                     <h1 className=" font-bold text-4xl">{Event4.num}</h1>
@@ -254,7 +251,7 @@ function Event() {
           </a>
           <a className=" h-[190px]" href="/FullEvent">
             {Event5.map((Event5) => (
-              <div className="grid grid-cols-[20%_35%_45%] font-mono">
+              <div className="grid grid-cols-[20%_35%_45%] font-mono bg-black">
                 <div className="bg-[#f2320c] h-[190px] flex flex-col justify-center items-center">
                   <div className="h-[150px] flex flex-col justify-evenly items-center">
                     <h1 className=" font-bold text-4xl">{Event5.num}</h1>
@@ -287,7 +284,7 @@ function Event() {
         <div className=" bg-[#161616] grid gap-4 ">
           <a className=" h-[190px]" href="/FullEvent">
             {Event6.map((Event6) => (
-              <div className="grid grid-cols-[20%_35%_45%] font-mono">
+              <div className="grid grid-cols-[20%_35%_45%] font-mono bg-black">
                 <div className="bg-[#f2320c] h-[190px] flex flex-col justify-center items-center">
                   <div className="h-[150px] flex flex-col justify-evenly items-center">
                     <h1 className=" font-bold text-4xl">{Event6.num}</h1>
@@ -318,7 +315,7 @@ function Event() {
           </a>
           <a className=" h-[190px]" href="/FullEvent">
             {Event7.map((Event7) => (
-              <div className="grid grid-cols-[20%_35%_45%] font-mono">
+              <div className="grid grid-cols-[20%_35%_45%] font-mono bg-black">
                 <div className="bg-[#f2320c] h-[190px] flex flex-col justify-center items-center">
                   <div className="h-[150px] flex flex-col justify-evenly items-center">
                     <h1 className=" font-bold text-4xl">{Event7.num}</h1>
@@ -349,7 +346,7 @@ function Event() {
           </a>
           <a className=" h-[190px]" href="/FullEvent">
             {Event8.map((Event8) => (
-              <div className="grid grid-cols-[20%_35%_45%] font-mono">
+              <div className="grid grid-cols-[20%_35%_45%] font-mono bg-black">
                 <div className="bg-[#f2320c] h-[190px] flex flex-col justify-center items-center">
                   <div className="h-[150px] flex flex-col justify-evenly items-center">
                     <h1 className=" font-bold text-4xl">{Event8.num}</h1>
@@ -380,7 +377,7 @@ function Event() {
           </a>
           <a className=" h-[190px]" href="/FullEvent">
             {Event9.map((Event9) => (
-              <div className="grid grid-cols-[20%_35%_45%] font-mono">
+              <div className="grid grid-cols-[20%_35%_45%] font-mono bg-black">
                 <div className="bg-[#f2320c] h-[190px] flex flex-col justify-center items-center">
                   <div className="h-[150px] flex flex-col justify-evenly items-center">
                     <h1 className=" font-bold text-4xl">{Event9.num}</h1>
@@ -411,7 +408,7 @@ function Event() {
           </a>
           <a className=" h-[190px]" href="/FullEvent">
             {Event0.map((Event0) => (
-              <div className="grid grid-cols-[20%_35%_45%] font-mono">
+              <div className="grid grid-cols-[20%_35%_45%] font-mono bg-black">
                 <div className="bg-[#f2320c] h-[190px] flex flex-col justify-center items-center">
                   <div className="h-[150px] flex flex-col justify-evenly items-center">
                     <h1 className=" font-bold text-4xl">{Event0.num}</h1>
