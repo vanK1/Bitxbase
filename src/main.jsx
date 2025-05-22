@@ -16,7 +16,6 @@ createRoot(document.getElementById("root")).render(
   <Route path="/event" element={<Event/>}/>
   <Route path="/create" element={<CreateEvent/>}/>
   <Route path="/about" element={<About/>}/>
-  <Route path="/about" element={<About/>}/> 
  </Routes>
  </BrowserRouter>
   </StrictMode>
