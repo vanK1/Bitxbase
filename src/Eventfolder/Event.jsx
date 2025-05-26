@@ -137,7 +137,7 @@ function Event() {
                   </div>
                 </div>
 
-                <div></div>
+                <div className=" bg-[url(AI5.jpg)] bg-cover bg-center rounded-xl shadow-lg"></div>
                 <div className="h-[190px] p-2 flex flex-col gap-1 pt-5">
                   <h1 className=" font-bold text-2xl h-[40px] font-serif">
                     {Event1.title}
@@ -168,7 +168,7 @@ function Event() {
                   </div>
                 </div>
 
-                <div></div>
+                <div className=" bg-[url(AI3.jpg)] bg-cover bg-center rounded-xl shadow-lg"></div>
                 <div className="h-[190px] p-2 flex flex-col gap-1 pt-5">
                   <h1 className=" font-bold text-2xl h-[40px] font-serif">
                     {Event2.title}
@@ -199,7 +199,7 @@ function Event() {
                   </div>
                 </div>
 
-                <div></div>
+                <div className=" bg-[url(AI2.jpg)] bg-cover bg-center rounded-xl shadow-lg"></div>
                 <div className="h-[190px] p-2 flex flex-col gap-1 pt-5">
                   <h1 className=" font-bold text-2xl h-[40px] font-serif">
                     {Event3.title}
@@ -230,7 +230,7 @@ function Event() {
                   </div>
                 </div>
 
-                <div></div>
+                <div className=" bg-[url(AI5.jpg)] bg-cover bg-center rounded-xl shadow-lg"></div>
                 <div className="h-[190px] p-2 flex flex-col gap-1 pt-5">
                   <h1 className=" font-bold text-2xl h-[40px] font-serif">
                     {Event4.title}
@@ -261,7 +261,7 @@ function Event() {
                   </div>
                 </div>
 
-                <div></div>
+                <div className=" bg-[url(AI3.jpg)] bg-cover bg-center rounded-xl shadow-lg"></div>
                 <div className="h-[190px] p-2 flex flex-col gap-1 pt-5">
                   <h1 className=" font-bold text-2xl h-[40px] font-serif">
                     {Event5.title}
@@ -294,7 +294,7 @@ function Event() {
                   </div>
                 </div>
 
-                <div></div>
+                <div className=" bg-[url(AI7.jpg)] bg-cover bg-center rounded-xl shadow-lg"></div>
                 <div className="h-[190px] p-2 flex flex-col gap-1 pt-5">
                   <h1 className=" font-bold text-2xl h-[40px] font-serif">
                     {Event6.title}
@@ -325,7 +325,7 @@ function Event() {
                   </div>
                 </div>
 
-                <div></div>
+                <div className=" bg-[url(AI4.jpg)] bg-cover bg-center rounded-xl shadow-lg"></div>
                 <div className="h-[190px] p-2 flex flex-col gap-1 pt-5">
                   <h1 className=" font-bold text-2xl h-[40px] font-serif">
                     {Event7.title}
@@ -356,7 +356,7 @@ function Event() {
                   </div>
                 </div>
 
-                <div></div>
+                <div className=" bg-[url(AI1.webp)] bg-cover bg-center rounded-xl shadow-lg"></div>
                 <div className="h-[190px] p-2 flex flex-col gap-1 pt-5">
                   <h1 className=" font-bold text-2xl h-[40px] font-serif">
                     {Event8.title}
@@ -387,7 +387,7 @@ function Event() {
                   </div>
                 </div>
 
-                <div></div>
+                <div className=" bg-[url(AI6.jpg)] bg-cover bg-center rounded-xl shadow-lg"></div>
                 <div className="h-[190px] p-2 flex flex-col gap-1 pt-5">
                   <h1 className=" font-bold text-2xl h-[40px] font-serif">
                     {Event9.title}
@@ -418,7 +418,7 @@ function Event() {
                   </div>
                 </div>
 
-                <div></div>
+                <div className=" bg-[url(AI7.jpg)] bg-cover bg-center rounded-xl shadow-lg"></div>
                 <div className="h-[190px] p-2 flex flex-col gap-1 pt-5">
                   <h1 className=" font-bold text-2xl h-[40px] font-serif">
                     {Event0.title}
@@ -444,143 +444,3 @@ function Event() {
 }
 
 export default Event;
-
-// import React, { useState } from "react";
-
-// const invitations = [
-//   {
-//     title: "Hackathon Kickoff 🚀",
-//     date: "June 10, 2025",
-//     time: "9:00 AM",
-//     venue: "Tech Innovation Lab",
-//     color: "bg-blue-100 border-blue-400",
-//     description: "Kickstart the hackathon with keynote speakers, team introductions, and project brainstorming. Great for networking and getting the energy going!",
-//   },
-//   {
-//     title: "Frontend Workshop 🎨",
-//     date: "June 12, 2025",
-//     time: "2:00 PM",
-//     venue: "Room A204, CS Building",09o-l[.]
-//     color: "bg-pink-100 border-pink-400",
-//     description: "Hands-on session covering the fundamentals of modern frontend development with React, Tailwind CSS, and component design.",
-//   },
-//   {
-//     title: "Python Bootcamp 🐍",
-//     date: "June 15, 2025",
-//     time: "10:00 AM",
-//     venue: "Online (Zoom)",
-//     color: "bg-green-100 border-green-400",
-//     description: "An intensive crash course on Python programming. Ideal for beginners and intermediates looking to strengthen their coding skills.",
-//   },
-//   {
-//     title: "AI Club Meetup 🤖",
-//     date: "June 18, 2025",
-//     time: "4:00 PM",
-//     venue: "Student Lounge, 2nd Floor",
-//     color: "bg-yellow-100 border-yellow-400",
-//     description: "A casual meetup for AI enthusiasts to discuss trends, projects, and collaboration opportunities.",
-//   },
-//   {
-//     title: "Exam Prep Seminar 📚",
-//     date: "June 20, 2025",
-//     time: "11:00 AM",
-//     venue: "Library Conference Room",
-//     color: "bg-red-100 border-red-400",
-//     description: "Academic coaches will walk you through strategies to prepare effectively for finals across all technical courses.",
-//   },
-//   {
-//     title: "Tech Talk: Careers in Dev 💼",
-//     date: "June 22, 2025",
-//     time: "1:00 PM",
-//     venue: "Main Auditorium",
-//     color: "bg-indigo-100 border-indigo-400",
-//     description: "Hear from industry professionals about what it takes to succeed as a software developer in today’s job market.",
-//   },
-//   {
-//     title: "JavaScript Game Night 🎮",
-//     date: "June 25, 2025",
-//     time: "6:00 PM",
-//     venue: "Lab 3, East Wing",
-//     color: "bg-purple-100 border-purple-400",
-//     description: "Compete in or watch others code browser games live using JavaScript. Prizes for best creations!",
-//   },
-//   {
-//     title: "Linux Install Fest 🐧",
-//     date: "June 27, 2025",
-//     time: "12:00 PM",
-//     venue: "Tech Basement Lab",
-//     color: "bg-gray-100 border-gray-400",
-//     description: "Get help installing and configuring Linux on your machine. Bring your laptop and questions!",
-//   },
-//   {
-//     title: "Data Structures Jam 🧠",
-//     date: "June 29, 2025",
-//     time: "3:00 PM",
-//     venue: "Engineering Hub",
-//     color: "bg-teal-100 border-teal-400",
-//     description: "Team up and solve fun problems using trees, graphs, and other data structures. Great practice for coding interviews!",
-//   },
-//   {
-//     title: "Portfolio Review Panel 📝",
-//     date: "July 1, 2025",
-//     time: "5:00 PM",
-//     venue: "Room B101",
-//     color: "bg-orange-100 border-orange-400",
-//     description: "Experts give live feedback on student portfolios. Bring yours or attend to learn what makes a portfolio stand out.",
-//   },
-// ];
-
-// export default function InvitationCardList() {
-//   const leftColumn = invitations.slice(0, 5);
-//   const rightColumn = invitations.slice(5);
-
-//   return (
-//     <div className="container mx-auto px-4 py-8 bg-black">
-//       <h1 className="text-3xl font-bold mb-8 text-center text-white">📅 Bitxbase Events Hub</h1>
-//       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-//         <div className="space-y-6">
-//           {leftColumn.map((inv, index) => (
-//             <Card key={index} inv={inv} />
-//           ))}
-//         </div>
-//         <div className="space-y-6">
-//           {rightColumn.map((inv, index) => (
-//             <Card key={index + 5} inv={inv} />
-//           ))}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
-// function Card({ inv }) {
-//   const [showDesc, setShowDesc] = useState(false);
-
-//   return (
-//     <div className={`rounded-2xl border-2 shadow-md p-6 ${inv.color}`}>
-//       <h2 className="text-xl font-bold mb-2">{inv.title}</h2>
-//       <p className="text-gray-800">
-//         <span className="font-semibold">Date:</span> {inv.date}
-//       </p>
-//       <p className="text-gray-800">
-//         <span className="font-semibold">Time:</span> {inv.time}
-//       </p>
-//       <p className="text-gray-800">
-//         <span className="font-semibold">Venue:</span> {inv.venue}
-//       </p>
-
-//       <button
-//         onClick={() => setShowDesc(!showDesc)}
-//         className="mt-4 text-sm font-medium text-blue-700 hover:underline"
-//       >
-//         {showDesc ? "Hide Details" : "Show Details"}
-//       </button>
-
-//       {showDesc && (
-//         <p className="mt-2 text-gray-700">
-//           {inv.description}
-//         </p>
-//       )}
-//     </div>
-//   );
-// }
