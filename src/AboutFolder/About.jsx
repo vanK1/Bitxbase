@@ -67,7 +67,6 @@ function About() {
                 <div className="min-h-[100px] md:h-[300px] bg-violet-900 grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-[10px] mt-2">
                   <div className="bg-fuchsia-500 min-h-[60px] md:min-h-0"></div>
                   <div className="bg-fuchsia-500 min-h-[60px] md:min-h-0"></div>
-                  <div className="bg-fuchsia-500 min-h-[60px] md:min-h-0"></div>
                 </div>
               </div>
               

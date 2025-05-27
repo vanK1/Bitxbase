@@ -7,6 +7,7 @@ import Home from "./Homefolder/Home";
 import Event from "./Eventfolder/Event";
 import CreateEvent from "./CreateEventfolder/CreateEvent";
 import About from "./AboutFolder/About";
+// import FullEvent from "./Eventfolder/FullEvent";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
