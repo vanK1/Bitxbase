@@ -3,7 +3,7 @@ import { IoMdSearch } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
-// import Event from "../Eventfolder/Event";
+import Event from "../Eventfolder/Event";
 
 
 
