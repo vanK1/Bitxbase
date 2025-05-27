@@ -3,19 +3,19 @@ import React from "react";
 function About() {
   return (
     <>
-      <div className="h-[100vh] bg-[#161616]">
-        <div className="grid grid-cols-[37%_63%]">
-          <div className="bg-red-800 h-screen sticky top-0"></div>
+      <div className="min-h-screen bg-[#161616]">
+        <div className="grid grid-cols-1 md:grid-cols-[37%_63%]">
+          <div className="bg-red-800 min-h-[200px] md:h-screen sticky top-0"></div>
           <div className="h-full bg-blue-700">
-            <div className="h-[300vh] bg-red-600 overflow-y-auto flex flex-col justify-between">
-              <h1 className="text-4xl text-white font-bold mt-[70px] font-mono">
+            <div className="min-h-screen md:h-[300vh] bg-red-600 overflow-y-auto flex flex-col justify-between p-4 md:p-0">
+              <h1 className="text-3xl md:text-4xl text-white font-bold mt-8 md:mt-[70px] font-mono text-center md:text-left">
                 About Us
               </h1>
-              <div className="h-[400px] w-[100%] bg-[green]"></div>
+              <div className="h-[200px] md:h-[400px] w-full bg-[green] my-4"></div>
 
-              <div className="h-[630px] w-[80%] bg-amber-200 flex flex-col justify-between">
-                <div className="bg-amber-600 h-[350px]">
-                  <p className="text-[20px] text-white font-mono ">
+              <div className="min-h-[400px] md:h-[630px] w-full md:w-[80%] bg-amber-200 flex flex-col justify-between mx-auto mb-4 p-4 md:p-0">
+                <div className="bg-amber-600 min-h-[200px] md:h-[350px] flex items-center">
+                  <p className="text-[16px] md:text-[20px] text-white font-mono ">
                     A student campus is a vibrant and dynamic environment where
                     academic learning and personal growth intersect. It serves
                     as the heart of student life, offering classrooms,
@@ -31,8 +31,8 @@ function About() {
                     for learning and development.
                   </p>
                 </div>
-                <div className="bg-[blue] h-[250px]">
-                  <p className="text-[20px] text-white font-mono">
+                <div className="bg-[blue] min-h-[120px] md:h-[250px] flex items-center mt-4 md:mt-0">
+                  <p className="text-[16px] md:text-[20px] text-white font-mono">
                     A student campus is a vibrant environment where students not
                     only attend classes but also participate in various
                     activities that promote learning and personal development.
@@ -46,12 +46,12 @@ function About() {
                 </div>
               </div>
 
-              <div className="h-[80vh] w-[80%] bg-amber-100">
-                <h1 className="font-mono text-4xl font-bold text-white">
+              <div className="min-h-[400px] md:h-[80vh] w-full md:w-[80%] bg-amber-100 mx-auto mb-4 p-4 md:p-0">
+                <h1 className="font-mono text-3xl md:text-4xl font-bold text-white text-center md:text-left">
                   Our team
                 </h1>
-                <div className="h-[200px] bg-emerald-500 flex justify-center items-center ">
-                  <p className="font-mono text-[18px] font-bold text-white">
+                <div className="min-h-[100px] md:h-[200px] bg-emerald-500 flex justify-center items-center my-4">
+                  <p className="font-mono text-[16px] md:text-[18px] font-bold text-white text-center">
                     Our team is a diverse group of passionate individuals
                     dedicated to creating a positive impact. We come from
                     various backgrounds, bringing unique skills and perspectives
@@ -63,14 +63,15 @@ function About() {
                     the lives of those we serve.
                   </p>
                 </div>
-                <h1 className="font-mono text-4xl font-bold">M</h1>
-                <div className="h-[300px] bg-violet-900 grid grid-cols-3 gap-[10px]">
-                  <div className="bg-fuchsia-500"></div>
-                  <div className="bg-fuchsia-500"></div>
-                  <div className="bg-fuchsia-500"></div>
+                <h1 className="font-mono text-3xl md:text-4xl font-bold text-center md:text-left">M</h1>
+                <div className="min-h-[100px] md:h-[300px] bg-violet-900 grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-[10px] mt-2">
+                  <div className="bg-fuchsia-500 min-h-[60px] md:min-h-0"></div>
+                  <div className="bg-fuchsia-500 min-h-[60px] md:min-h-0"></div>
+                  <div className="bg-fuchsia-500 min-h-[60px] md:min-h-0"></div>
                 </div>
               </div>
-              <div className="h-[400px] bg-lime-600"></div>
+              
+              <div className="h-[200px] md:h-[400px] bg-lime-600"></div>
             </div>
           </div>
         </div>
