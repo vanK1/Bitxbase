@@ -4,12 +4,12 @@
 
 .aa{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    :hover {
-        transform: translateY(-4px);
-        transition: all 0.3s ease-in-out;
-        /* box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); */
-    }
 }
 .bb{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
+.aa:hover {
+        transform: translateY(-4px);
+        transition: all 0.3s ease-in-out;
+        /* box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); */
+    }
