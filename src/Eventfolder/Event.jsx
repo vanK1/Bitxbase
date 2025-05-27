@@ -135,7 +135,7 @@ function Event() {
                     <h1>___</h1>
                     <h1 className=" font-bold">{Event1.time}</h1>
                   </div>
-                </div>
+                </div>    
 
                 <div className=" bg-[url(AI5.jpg)] bg-cover bg-center rounded-xl shadow-lg"></div>
                 <div className="h-[190px] p-2 flex flex-col gap-1 pt-5">
