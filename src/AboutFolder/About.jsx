@@ -198,4 +198,4 @@ function About() {
   );
 }
 
-export default About;
+export default About
