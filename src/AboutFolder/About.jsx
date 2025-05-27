@@ -140,7 +140,7 @@ function About() {
                       </div>
                     </div>
                     <div className="flex justify-between flex-col items-center">
-                      <div className="bg-fuchsia">
+                      <div className="bgred">
                         <img className="h-[250px]" src="Tech2.png" alt="" />
                       </div>
                       <div className="h-[22px] w-[150px] bg-fuchsia">
